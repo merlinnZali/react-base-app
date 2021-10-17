@@ -7,3 +7,5 @@ src/serviceWorker.ts
 *.css
 *.scss
 *.svg
+node_modules
+coverage

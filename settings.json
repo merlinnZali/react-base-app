@@ -1,0 +1,131 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Material Theme Darker High Contrast",
+  "editor.suggestSelection": "first",
+
+  //
+  "prettier.eslintIntegration": true,
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+  "editor.fontSize": 16,
+
+  // "editor.defaultFormatter": "esbenp.prettier-vscode" ou "dbaeumer.vscode-eslint",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "eslint.alwaysShowStatus": true,
+  "editor.renderLineHighlight": "gutter",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": ["javascript", "typescript", "javascriptreact", "typescriptreact"],
+  // "eslint.workingDirectories": [
+  //     "Dir1",
+  //     "Dir2"
+  // ],
+
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx",
+    "typescript": "tsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    //"editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    //"editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+
+    /* "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+      "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": true
+      },
+      "editor.formatOnSave": false */
+  },
+  "[javascriptreact]": {
+    //"editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    //"editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+
+  "debug.allowBreakpointsEverywhere": true,
+  // "editor.defaultFormatter": "rust-lang.rust",
+  "files.autoSave": "afterDelay", // ??
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "terminal.integrated.fontSize": 14,
+
+  "javascript.updateImportsOnFileMove.enabled": "always", // "never"
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  "vs-kubernetes": {
+    "vscode-kubernetes.helm-path.linux": "/home/merlin/.vs-kubernetes/tools/helm/linux-amd64/helm",
+    "vscode-kubernetes.minikube-path.linux": "/home/merlin/.vs-kubernetes/tools/minikube/linux-amd64/minikube"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.autoSaveDelay": 10
+
+  // Golang setting
+  /*
+  "go.useLanguageServer": true,
+  "go.languageServerExperimentalFeatures": {
+      "diagnostics": true,
+      "documentLink": true
+  },
+  "[go]": {
+      "editor.formatOnSave": true,
+      "editor.codeActionsOnSave": {
+          "source.organizeImports": true,
+      },
+      // Optional: Disable snippets, as they conflict with completion ranking.
+      "editor.snippetSuggestions": "none",
+  },
+  "[go.mod]": {
+      "editor.formatOnSave": true,
+      "editor.codeActionsOnSave": {
+          "source.organizeImports": true,
+      },
+  },
+  "gopls": {
+      "completeUnimported": true, // autocomplete unimported package
+      "deepCompletion": true // enable deep completion
+      // Add parameter placeholders when completing a function.
+      //"usePlaceholders": true,
+
+      // If true, enable additional analyses with staticcheck.
+      // Warning: This will significantly increase memory usage.
+      //"staticcheck": false,
+  }
+  */
+}
