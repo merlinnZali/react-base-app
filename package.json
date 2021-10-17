@@ -57,6 +57,15 @@
   "lint-staged": {
     "*.+(js|jsx|ts|tsx)": [
       "prettier --write src/*.{ts,tsx,js,jsx} src/**/*.{ts,tsx,js,jsx} --ignore-path ./.prettierignore",
+      "eslint --ext .js,.jsx,.ts,.tsx --ignore-path ./.eslintignore --cache-location ./.eslintcache src --cache --color --quiet --fix"
+    ],
+    "*.+(json|css|scss|md)": [
+      "prettier --write --ignore-path ./.gitignore"
+    ]
+  },
+  "lint-staged_init": {
+    "*.+(js|jsx|ts|tsx)": [
+      "prettier --write src/*.{ts,tsx,js,jsx} src/**/*.{ts,tsx,js,jsx} --ignore-path ./.prettierignore",
       "eslint --ext .js,.jsx,.ts,.tsx --ignore-path ./.eslintignore --cache-location ./.eslintcache src --cache --color --quiet --fix",
       "git add"
     ],
