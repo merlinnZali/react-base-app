@@ -25,8 +25,8 @@ if (process.env.NODE_ENV === 'development' && module.hot) {
   })
 }
 
-export type AppDispatch = typeof store.dispatch
-export type RootState = ReturnType<typeof store.getState>
+export type AppDispatch = typeof store.dispatch // Type to access dispatch
+export type RootState = ReturnType<typeof store.getState> // A global type to access reducers types
 export type AppThunk = ThunkAction<void, RootState, unknown, Action<string>>
 
 export default store

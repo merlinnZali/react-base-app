@@ -1,9 +1,9 @@
 import React from 'react'
 import TodoListItem from './TodoListItem'
-import { RootState } from '../../app/store'
+import { RootState } from '../../redux/store'
 
 // import { useSelector, useDispatch } from 'react-redux'
-import { useAppSelector, useAppDispatch } from './../../app/hooks'
+import { useAppSelector, useAppDispatch } from '../../redux/hooks'
 
 import { toggleTodo } from './todoSlice'
 

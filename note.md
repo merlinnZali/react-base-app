@@ -176,7 +176,7 @@ mixed by me:
 
 ---
 
-## npm i -D husky lint-staged pretty-quick
+## npm i -D husky lint-staged
 
 MATERIAL STYLE-COMPONENT BOOTSTRAP:
 npm add -D @material-ui/core @material-ui/icons @material-ui/styles
@@ -242,4 +242,7 @@ one more time for CRA to pick up other @types declarations in your package.json
 
 ---
 
-Test et bootstrap
+Test utilise react test lib
+coverage
+
+---

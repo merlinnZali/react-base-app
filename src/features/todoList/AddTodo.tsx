@@ -2,7 +2,7 @@ import React, { FormEvent } from 'react'
 // import { useDispatch } from 'react-redux'
 import TodoList from './TodoList'
 import { addTodo } from './todoSlice'
-import { useAppSelector, useAppDispatch } from './../../app/hooks'
+import { useAppSelector, useAppDispatch } from '../../redux/hooks'
 
 export default function AddTodo(): JSX.Element {
   // const dispatch = useDispatch()

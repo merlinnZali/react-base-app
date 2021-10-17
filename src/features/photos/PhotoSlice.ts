@@ -1,12 +1,7 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
 import axios from 'axios'
-import { AppThunk, AppDispatch } from './../../app/store'
-
-export interface PhotoState {
-  photos: object[]
-  loading: boolean
-  errors: string
-}
+import { AppThunk, AppDispatch } from '../../redux/store'
+import { PhotoState } from '../../types'
 
 const initialState: PhotoState = {
   photos: [],

@@ -1,4 +1,4 @@
-import { history } from './../app/rootReducer'
+import { history } from '../redux/rootReducer'
 
 const sauvegarderDansHistorique = (url: string) => history.push(url)
 export default sauvegarderDansHistorique

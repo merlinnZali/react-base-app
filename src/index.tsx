@@ -3,8 +3,8 @@ import 'react-hot-loader/patch'
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import store from './app/store'
-import { history } from './app/rootReducer'
+import store from './redux/store'
+import { history } from './redux/rootReducer'
 // import { ConnectedRouter } from 'connected-react-router'
 import { ConnectedRouter } from 'connected-react-router/immutable'
 import { AppContainer } from 'react-hot-loader' /* react-hot-loader v3 */
